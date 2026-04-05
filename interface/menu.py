@@ -1,0 +1,12 @@
+def afficher_menu():
+    print("\n" + "=" * 30)
+    print("        CYBERLAB🔐        ")
+    print("[1] Cesar (Chiffrement)\n")
+    print("[2] Cesar (Déchiffrement)\n")
+    print("[3] Vigenère (Chiffrement)\n")
+    print("[4] Vigenère (Déchiffrement)\n")
+    print("[5] Analyse de mot de passe\n")
+    print("[6] Attaque brute force César\n")
+    print("[7] Cryptanalyse César Analyse par fréquence\n")
+    print("[8] Attaque intelligente hybridant les deux méthodes\n")
+    print("[0] Quitter\n")

@@ -1,0 +1,1 @@
+# Aucun module externe n'est nécessaire pour ce projet, toutes les fonctionnalités sont implémentées en utilisant les bibliothèques standard de Python.
