@@ -1,30 +1,65 @@
-🔐 CyberLab
+🔐 CyberLab — Outil de Cryptographie & Cryptanalyse
 
-CyberLab est un outil de cryptographie et de cryptanalyse développé en Python.
+📌 Présentation
+
+CyberLab est un outil développé en Python permettant d'explorer les mécanismes de chiffrement classique ainsi que quelques techniques de cryptanalyse.
+
+Ce projet illustre concrètement des concepts fondamentaux en cybersécurité tels que :
+
+- le chiffrement symétrique
+- l'analyse statistique
+- les attaques par force brute
+
+---
 
 🚀 Fonctionnalités
 
-- Chiffrement et déchiffrement de César
-- Chiffrement et déchiffrement de Vigenère
+🔐 Chiffrement
+
+- Chiffrement de César
+- Chiffrement de Vigenère
+
+🔓 Déchiffrement
+
+- Déchiffrement César
+- Déchiffrement Vigenère
+
+💥 Attaques
+
 - Attaque brute force (César)
-- Analyse de fréquence
-- Attaque intelligente (mots français)
+- Attaque par analyse de fréquence
+- Attaque intelligente (basée sur mots français)
 - Attaque hybride (statistique + linguistique)
-- Analyse de mot de passe
 
-🧠 Objectif du projet
+🔍 Analyse
 
-Ce projet a été réalisé dans le cadre d’un apprentissage en cybersécurité et en cryptographie, avec pour objectif de comprendre les mécanismes de chiffrement et les techniques de cassage de code.
+- Analyse de la robustesse des mots de passe
 
-⚙️ Technologies utilisées
+---
 
-- Python
-- Algorithmes de cryptographie classique
-- Analyse statistique
+🧠 Concepts utilisés
 
-▶️ Lancer le projet
+- Cryptographie classique
+- Cryptanalyse
+- Statistiques (analyse de fréquence)
+- Algorithmes
+- Structures de données (dictionnaires)
 
+---
+
+⚙️ Installation & utilisation
+
+git clone https://github.com/ton-username/CyberLab.git
+cd CyberLab
 python cyberlab.py
+
+---
+
+🎯 Objectif pédagogique
+
+Ce projet a été réalisé dans une démarche d’apprentissage approfondi de la cybersécurité, avec un focus sur la compréhension des mécanismes internes des systèmes de chiffrement.
+
+---
 
 👨‍💻 Auteur
 
