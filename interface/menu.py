@@ -1,6 +1,7 @@
 def afficher_menu():
     print("\n" + "=" * 30)
     print("        CYBERLAB🔐        ")
+    print("=" * 30 + "\n")
     print("[1] Cesar (Chiffrement)\n")
     print("[2] Cesar (Déchiffrement)\n")
     print("[3] Vigenère (Chiffrement)\n")

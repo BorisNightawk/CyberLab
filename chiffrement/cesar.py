@@ -117,10 +117,3 @@ def attaque_intelligente(message: str) -> tuple[int, str]:
             meilleur_cle = cle
             meilleur_message = message_clair
     return meilleur_cle, meilleur_message, meilleur_score
-
-if __name__ == '__main__':
-    exemple = 'Bonjour, ceci est un message secret.'
-    print('Message original :', exemple)
-    chiffre = chiffrement_cesar(exemple, 3)
-    print('Chiffré :', chiffre)
-    print('Déchiffré :', dechiffrement_cesar(chiffre, 3))
